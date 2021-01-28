@@ -104,3 +104,11 @@ if (!function_exists('params')){
         return $k?$common_config[$k]??'':$common_config;
     }
 }
+
+if (!function_exists('test_redis')){
+    function test_redis(){
+        $redis = redis_connect();
+        D($redis->keys('*'));
+
+    }
+}
