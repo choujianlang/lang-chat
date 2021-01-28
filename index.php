@@ -4,7 +4,7 @@
  * @var $common_config
  */
 require_once 'common.php';
-
+D($redis);
 //自动加载
 $do = I('do');
 $method = "{$common_config['method_prefix']}{$do}";
