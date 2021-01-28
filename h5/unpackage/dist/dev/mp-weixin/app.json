@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/friends/friends",
+    "pages/me/me",
+    "pages/near/near",
+    "pages/nearDetail/nearDetail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "聊天",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#4CD964",
+    "backgroundColor": "#F8F8F8",
+    "borderStyle": "white",
+    "list": [
+      {
+        "text": "聊天",
+        "pagePath": "pages/index/index",
+        "selectedIconPath": "./static/tabs/liaotian-4.png",
+        "iconPath": "static/tabs/liaotian-3.png"
+      },
+      {
+        "text": "通讯录",
+        "pagePath": "pages/friends/friends",
+        "selectedIconPath": "./static/tabs/yonghu-2.png",
+        "iconPath": "static/tabs/yonghu.png"
+      },
+      {
+        "text": "附近的人",
+        "pagePath": "pages/near/near",
+        "selectedIconPath": "./static/tabs/fujin-2.png",
+        "iconPath": "static/tabs/fujin.png"
+      },
+      {
+        "text": "我",
+        "pagePath": "pages/me/me",
+        "selectedIconPath": "./static/tabs/icon_wode--2.png",
+        "iconPath": "static/tabs/icon_wode-.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "快~告诉你现在在哪里"
+    }
+  },
+  "usingComponents": {
+    "uni-popup-message": "/components/uni-popup/uni-popup-message",
+    "uni-popup-dialog": "/components/uni-popup/uni-popup-dialog",
+    "uni-popup-share": "/components/uni-popup/uni-popup-share"
+  }
+}

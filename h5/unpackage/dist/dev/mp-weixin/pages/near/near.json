@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "附近的人",
+  "enablePullDownRefresh": true,
+  "backgroundTextStyle": "dark",
+  "usingComponents": {
+    "uni-list": "/components/uni-list/uni-list",
+    "uni-list-chat": "/components/uni-list-chat/uni-list-chat"
+  }
+}

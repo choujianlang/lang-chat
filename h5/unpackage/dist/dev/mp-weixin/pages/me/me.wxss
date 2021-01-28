@@ -1,0 +1,25 @@
+
+.update-input{
+	width: 80%;
+	height: 300rpx;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	background-color: #fff;
+	border: 1rpx solid rgb(180, 180, 180);
+	border-radius: 5rpx;
+}
+.update-input .input-text{
+	width: 60%;
+	border: 1px solid #999999;
+}
+.list {
+	margin-top: 10rpx;
+}
+.login-btn {
+	margin-top: 30rpx;
+}
+

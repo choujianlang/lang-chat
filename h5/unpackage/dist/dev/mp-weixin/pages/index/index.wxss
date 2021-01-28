@@ -1,0 +1,6 @@
+
+.uni-list-chat,
+.uni-list.uni-border-top-bottom {
+	width: 100%;
+}
+

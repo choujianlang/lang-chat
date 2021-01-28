@@ -1,0 +1,76 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style":{
+				"navigationBarTitleText":"聊天"
+			}
+			
+		},
+		{
+			"path": "pages/friends/friends",
+			"style":{
+				"navigationBarTitleText":"通讯录"
+			}
+		},
+		{
+			"path": "pages/me/me",
+			"style":{
+				"navigationBarTitleText":"我"
+			}
+		},
+		{
+			"path": "pages/near/near",
+			"style":{
+				"navigationBarTitleText":"附近的人",
+				"enablePullDownRefresh":true,
+				"backgroundTextStyle":"dark"
+			}
+		},
+		{
+			"path": "pages/nearDetail/nearDetail",
+			"style":{
+				"navigationBarTitleText":""
+			}
+		}
+		
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "聊天",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color":"#000000",
+		"selectedColor":"#4CD964",
+		"backgroundColor":"#F8F8F8",
+		"borderStyle":"white",
+		"list":[
+			{
+				"text":"聊天",
+				"pagePath":"pages/index/index",
+				"selectedIconPath":"./static/tabs/liaotian-4.png",
+				"iconPath":"static/tabs/liaotian-3.png"
+			},
+			{
+				"text":"通讯录",
+				"pagePath":"pages/friends/friends",
+				"selectedIconPath":"./static/tabs/yonghu-2.png",
+				"iconPath":"static/tabs/yonghu.png"
+			},
+			{
+				"text":"附近的人",
+				"pagePath":"pages/near/near",
+				"selectedIconPath":"./static/tabs/fujin-2.png",
+				"iconPath":"static/tabs/fujin.png"
+			},
+			{
+				"text":"我",
+				"pagePath":"pages/me/me",
+				"selectedIconPath":"./static/tabs/icon_wode--2.png",
+				"iconPath":"static/tabs/icon_wode-.png"
+			}
+		]	
+	}
+}

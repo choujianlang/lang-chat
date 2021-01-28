@@ -1,0 +1,10 @@
+
+.chat-custom-right {
+	padding: 20rpx 35rpx;
+	margin: auto 0;
+	background-color: #E0EEEE;
+	color: #787878;
+	border-radius: 10rpx;
+	font-size: 26rpx;
+}
+
