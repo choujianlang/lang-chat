@@ -20,8 +20,24 @@ use \Workerman\Autoloader;
 // 自动加载类
 require_once __DIR__ . '/../../vendor/autoload.php';
 
+$context = array(
+    // 更多ssl选项请参考手册 http://php.net/manual/zh/context.ssl.php
+    'ssl' => array(
+        // 请使用绝对路径
+        'local_cert'                 => '/lang/x11132.top/5132949_x11132.top.pem', // 也可以是crt文件
+        'local_pk'                   => '/lang/x11132.top/5132949_x11132.top.key',
+        'verify_peer'               => false,
+        // 'allow_self_signed' => true, //如果是自签名证书需要开启此选项
+    )
+);
+
+
 // gateway 进程，这里使用Text协议，可以用telnet测试
-$gateway = new Gateway("websocket://0.0.0.0:9118");
+$gateway = new Gateway("websocket://0.0.0.0:9118",$context);
+
+// 开启SSL，websocket+SSL 即wss
+$gateway->transport = 'ssl';
+
 // gateway名称，status方便查看
 $gateway->name = 'YourAppGateway';
 // gateway进程数

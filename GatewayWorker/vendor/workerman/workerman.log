@@ -10381,3 +10381,6 @@ Stack trace:
 2021-01-28 19:42:36 pid:80879 Workerman[start.php] start in DEBUG mode
 2021-01-28 19:45:01 pid:80879 Workerman[start.php] reloading
 2021-01-28 19:45:14 pid:80879 Workerman[start.php] reloading
+2021-01-29 10:30:18 pid:80879 Workerman[start.php] reloading
+2021-01-29 10:34:02 pid:80879 Workerman[start.php] reloading
+2021-01-29 10:36:16 pid:80879 Workerman[start.php] reloading
