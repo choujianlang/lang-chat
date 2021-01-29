@@ -4,3 +4,4 @@
 
 /config/redis.php
 
+/GatewayWorker/vendor/workerman/workerman.log
