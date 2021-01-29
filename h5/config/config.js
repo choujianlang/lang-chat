@@ -1,3 +1,3 @@
 export default {
-	domain:'http://www.lang-chat.com:9111'
+	domain:'http://8.130.52.195:81'
 }

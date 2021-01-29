@@ -9087,7 +9087,7 @@ function normalizeComponent (
 
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = {
-  domain: 'http://www.lang-chat.com:9111' };exports.default = _default;
+  domain: 'http://8.130.52.195:81' };exports.default = _default;
 
 /***/ }),
 /* 14 */
@@ -9203,7 +9203,7 @@ var store = new _vuex.default.Store({
   _: null,
   connect: function connect() {
     this._ = uni.connectSocket({
-      url: 'ws://localhost:9118',
+      url: 'wss://x11132.top:9118',
       success: function success() {
         console.log("websocket连接成功");
       } });

@@ -2,7 +2,7 @@ export default {
 	_:null,
 	connect() {
 		this._ = uni.connectSocket({
-			url: 'ws://localhost:9118',
+			url: 'wss://x11132.top:9118',
 			success() {
 				console.log("websocket连接成功")
 			}

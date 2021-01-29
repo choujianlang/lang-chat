@@ -54,10 +54,12 @@ Vue.prototype.get_location = function(open_id,cb=function(){}) {
 					open_id,
 				}),
 				success(){
-					console.log(123)
 					typeof cb === 'function' && cb()
 				}
 			})
+		},
+		fail(r) {
+			console.log(r)
 		}
 	});
 }

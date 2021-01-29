@@ -63,10 +63,12 @@ _vue.default.prototype.get_location = function (open_id) {var cb = arguments.len
           open_id: open_id }),
 
         success: function success() {
-          console.log(123);
           typeof cb === 'function' && cb();
         } });
 
+    },
+    fail: function fail(r) {
+      console.log(r);
     } });
 
 };
