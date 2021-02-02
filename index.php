@@ -16,11 +16,3 @@ if (function_exists($method)){
 
 
 
-
-
-
-
-
-
-
-

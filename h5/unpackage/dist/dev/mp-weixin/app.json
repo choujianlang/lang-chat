@@ -54,5 +54,6 @@
     "uni-popup-message": "/components/uni-popup/uni-popup-message",
     "uni-popup-dialog": "/components/uni-popup/uni-popup-dialog",
     "uni-popup-share": "/components/uni-popup/uni-popup-share"
-  }
+  },
+  "sitemapLocation": "sitemap51.json"
 }

@@ -9203,7 +9203,7 @@ var store = new _vuex.default.Store({
   _: null,
   connect: function connect() {
     this._ = uni.connectSocket({
-      url: 'wss://8.130.52.195:9118',
+      url: 'ws://localhost:9118',
       success: function success() {
         console.log("websocket连接成功");
       } });

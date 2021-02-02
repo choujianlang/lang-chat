@@ -31,13 +31,13 @@
 					title: '初始化...',
 					mask: true,
 				});
+				
 				uni.login({
 					provider: 'weixin',
 					success(loginRes) {
 						let {
 							code
 						} = loginRes;
-
 						_this.$request({
 							data: {
 								code,

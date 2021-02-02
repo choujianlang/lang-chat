@@ -183,13 +183,13 @@ __webpack_require__.r(__webpack_exports__);
         title: '初始化...',
         mask: true });
 
+
       uni.login({
         provider: 'weixin',
         success: function success(loginRes) {var
 
           code =
           loginRes.code;
-
           _this.$request({
             data: {
               code: code },
